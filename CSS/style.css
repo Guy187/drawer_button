@@ -1,0 +1,33 @@
+.drawer {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Esconda o drawer inicialmente */
+    width: 250px;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.2);
+    color: #1b1919;
+    padding: 20px;
+    transition: left 0.3s ease;
+  }
+  
+  #drawerBtn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  }
+  
+  #closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  p{
+    margin-top: 30px;
+  }
+
+  body{
+        background-image: url('/img/fundo.jpg');
+      
+    
+  }
+  
